@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Enter  your name </h2>
+    <form action="post">
+        <label for="User name "></label>
+        <input type="text" id="username" name="" placeholder="Enter your username" required autofocus>
+      <!-- autofocus required -->
+        <div><p></p> <input type="radio" id="male" name="gender" value="male ">
+       <label for="male" id="male ">male</label>
+        <input type="radio" id="Female" name="gender" value="Female " >
+       <label for="Female" id="Female ">Female</label></div> 
+      <div>
+        <input type="radio" name="origin" id="Indian" value="yes">
+        <label for="Indian" id="Indian">Indian</label>
+        <input type="radio" name="origin" id="other" value="yes">
+        <label for="other" id="other " name="Other">others</label>
+</div>
+<div>
+    <input type="checkbox" name="EWS" id="EWS" value="yes">
+    <label for="EWS">IF EWS</label>
+</div>
+<div>
+    <select name="HS passing year" id="HS passing year" required  autofocus>
+        <option value="2024">2024</option>
+        <option value="3023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+    </select>
+    <label for="HS passing year">HS passing year</label>
+
+</div>
+ <div>
+    <label for="Address">Address</label>
+    <textarea name="Address"  id="Address">
+       
+    </textarea>
+ </div>
+    </form>
+    
+</body>
+</html>
